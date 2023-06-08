@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "Pokemon Solid";
+    src: url("../../fonts/pokemon_solid/pokemonsolid.ttf");
+  }
+
+
+.containNav {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 260px;
+    padding: 12px;
+    background-color: rgb(26, 26, 26);
+    position: fixed;
+    width: 100%;
+
+    z-index: 1;
+    top: 0;
+}
+
+.childNav {
+ 
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-size: 18px;
+    
+}
+
+.inputName {
+
+    width: 300px;
+    padding: 15px;
+    font-size: 15px;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+
+}
+
+.inputName::placeholder{
+    color: rgba(255, 255, 255, 0.921);
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.inputName{
+    color: #ffffff;
+    border: 2px solid #870000;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    width: 300px;
+    height: 40px;
+    font-size: 19px;
+}
+   
+.inputName:active {
+    box-shadow: 2px 2px 15px #7f07ff inset;
+}
+
+.inputBtn {
+
+    padding: 15px;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.iconLupa {
+
+    position: absolute;
+    left: 855px;
+    top: 27px;
+    font-size: 30px;
+    background: none;
+    color: #ffb507;
+}
+
+.iconLupa:hover {
+
+    cursor: pointer;
+    color: white
+}
+
+.childNavHCA {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    gap: 30px;
+}
+
+.childNavOption {
+
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-size: 14px;
+    text-shadow: 3px 4px 10px rgb(0, 0, 0);
+}
+.childNavOption:hover {
+    
+    cursor: pointer;
+    color: #ffb507;
+}
+
+.childNavLogo {
+
+    color: white;
+    text-transform: uppercase;
+    font-family: "Pokemon solid";
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-size: 20px;
+    padding: 0;
+    color: #f2ff00;
+    -webkit-text-stroke: 1px rgb(255, 0, 0);
+    text-shadow: 5px 5px 15px rgb(0, 0, 0);
+}
+
+.childNavLogo:hover {
+
+    transform: scale(1.2);
+}
+
+.childNav:hover {
+
+    cursor: pointer;
+    color:rgb(255, 127, 127)
+}
+
+.Link {
+
+    text-decoration: none;
+}
+
+.btnMusic {
+
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 600;
+    width: 120px;
+}
+
+.btnMusic:hover {
+
+    cursor: pointer;
+}
+
+.greenButton {
+    
+    background-color: rgb(255, 61, 61);
+    color: white;
+  }
+  
+  .redButton {
+    background-color: #59ff00;
+    color: rgb(38, 38, 38);
+  }
+  

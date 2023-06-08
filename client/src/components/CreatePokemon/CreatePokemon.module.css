@@ -1,0 +1,230 @@
+@font-face {
+    font-family: "Pokemon Solid";
+    src: url("../../fonts/pokemon_solid/pokemonsolid.ttf");
+  }
+
+.containCreate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../img/mundoPoke.jpg');
+    background: rgb(127, 0, 40);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.formCreate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url('../../img/mundoPoke.jpg');
+    background-size: cover; */
+    /* box-shadow: 10px 0px 15px 5px rgb(0, 0, 0); */
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.containCreate h1 {
+
+    font-family: 'Pokemon solid';
+    color: #f2ff00;
+    -webkit-text-stroke: 1px rgb(255, 0, 0);
+    text-shadow: 5px 5px 15px rgb(0, 0, 0);
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 5px;
+}
+
+.formCreate h3 {
+
+    font-family: 'Pokemon solid';
+    margin: 0;
+    padding: 0;
+}
+
+.inputCreate {
+
+    font-size: 17px;
+    font-family: monospace;
+    background: rgba(0, 0, 0, 0.51);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 2px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    border: 2px solid rgb(255, 153, 0);
+    z-index: 9;
+    
+}
+
+.inputCreate:active {
+    box-shadow: 2px 2px 15px #ffac07 inset;
+}
+.inputCreate::placeholder {
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.SelectOption {
+
+    border: none;
+    padding: 10px;
+    width: 225px;
+    background: #ffc800;
+    font-family: monospace;
+    margin-top: 2px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.SelectOption:hover {
+
+    cursor: pointer;
+    opacity: 90%;
+}
+
+.labelOption {
+
+    color: rgb(164, 164, 164);
+    background: #464646;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: monospace;
+    margin-top: 2px;
+    font-weight: 800;
+    width: 205px;
+}
+
+.btnCreate {
+
+    color: rgb(67, 67, 67);
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 800;
+    height: 50px;
+    width: 120px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-size: cover;
+    z-index: 10;
+}
+
+.btnCreate:hover {
+    cursor: pointer;
+    background-color: #51ff00;
+    color: rgb(75, 75, 75);
+    border: 3px solid rgb(75, 75, 75);
+    border-radius: 5px;
+}
+
+.gifP {
+    position: absolute; 
+    height: 300px;
+    width: 250px;
+    left: 300px;
+    top: 400px;
+    background-image: url('../../gif/pikachuSaludando.gif');
+}
+/* .imagePng {
+
+    position: absolute;
+    background-image: url('../../img/ashPokebola.png');
+    background-size: cover;
+    height: 690px;
+    width: 600px;
+    left: 900px;
+    bottom: 0;
+  
+} */
+
+.imagePokemons {
+    
+    position: absolute;
+    background-image: url('../../img/pokemons.png');
+    background-size: cover;
+    height: 850px;
+    width: 1432px;
+    left: 100px;
+    bottom: 0;
+    z-index: 0;
+}
+
+.Back {
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    text-decoration: none;
+    color: rgb(255, 242, 120);
+    font-family: 'Pokemon solid';
+    font-size: 27px;
+    font-weight: 800;
+    border-radius: 5px;
+    padding: 5px 10px;
+    letter-spacing: 6px;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0);
+    z-index: 8;
+        
+    }
+    .Back:hover {
+    
+      cursor: pointer;
+      color: rgb(64, 255, 0);
+      
+      box-sizing: border-box;
+      transform: scale(1.2);
+    }
+    .formChild2 {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        background: #f2ff00;
+        padding: 20px;
+        height: 400px;
+        width: px;
+    }
+
+    .errorContainer {
+        position: relative;
+        display: inline-block;
+      }
+
+    .errorLabel {
+
+        position: absolute;
+        color: rgb(187, 187, 187);
+        margin-left: 10px;
+        margin-top: 9px;
+        white-space: nowrap;
+        font-size: 15px;
+    }
+
+    .inputLabel {
+
+        position: absolute;
+        color: rgb(246, 255, 0);
+        margin-left: -90px;
+        margin-top: 8px;
+        white-space: nowrap;
+        font-size: 15px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: uppercase;
+        font-style: italic;
+        border: 3px solid red;
+        width: 75px;
+        border-radius: 5px;
+    }

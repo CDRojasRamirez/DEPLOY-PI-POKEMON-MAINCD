@@ -1,0 +1,29 @@
+/* * {
+    background-repeat: repeat;
+    background-image: url('../../img/mundoPoke.jpg');
+    background-attachment: fixed;
+} */
+.PokemonsContain {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.PokemonsGrid{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    
+    /* grid-row-gap: 0px; */
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-repeat: repeat;
+    background-image: url('../../img/mundoPoke.jpg');
+    background: rgb(127, 0, 40);
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+  
+}
+  
