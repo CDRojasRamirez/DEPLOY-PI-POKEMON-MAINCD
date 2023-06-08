@@ -24,6 +24,12 @@ server.use((req, res, next) => {
 
 server.use('/', routes);
 
+//  ruta de chequeo de salud
+server.get('/health', (req, res) => {
+  res.status(200).json({ status: 'OK' });
+});
+
+
 // Error catching endware.
 server.use((err, req, res, next) => { // eslint-disable-line no-unused-vars
   const status = err.status || 500;
